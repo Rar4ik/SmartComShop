@@ -1,0 +1,16 @@
+C:\Users\mrava\source\repos\SmartComShop\SmartCom.Domain\obj\Debug\SmartCom.Domain.csprojAssemblyReference.cache
+C:\Users\mrava\source\repos\SmartComShop\SmartCom.Domain\bin\Debug\SmartCom.Domain.dll.config
+C:\Users\mrava\source\repos\SmartComShop\SmartCom.Domain\bin\Debug\SmartCom.Domain.dll
+C:\Users\mrava\source\repos\SmartComShop\SmartCom.Domain\bin\Debug\SmartCom.Domain.pdb
+C:\Users\mrava\source\repos\SmartComShop\SmartCom.Domain\bin\Debug\EntityFramework.dll
+C:\Users\mrava\source\repos\SmartComShop\SmartCom.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mrava\source\repos\SmartComShop\SmartCom.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\mrava\source\repos\SmartComShop\SmartCom.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\mrava\source\repos\SmartComShop\SmartCom.Domain\bin\Debug\EntityFramework.xml
+C:\Users\mrava\source\repos\SmartComShop\SmartCom.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mrava\source\repos\SmartComShop\SmartCom.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\mrava\source\repos\SmartComShop\SmartCom.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\mrava\source\repos\SmartComShop\SmartCom.Domain\obj\Debug\SmartCom.Domain.csproj.CopyComplete
+C:\Users\mrava\source\repos\SmartComShop\SmartCom.Domain\obj\Debug\SmartCom.Domain.dll
+C:\Users\mrava\source\repos\SmartComShop\SmartCom.Domain\obj\Debug\SmartCom.Domain.pdb
+C:\Users\mrava\source\repos\SmartComShop\SmartCom.Domain\obj\Debug\SmartCom.Domain.csproj.CoreCompileInputs.cache
