@@ -9,6 +9,7 @@ namespace SmartCom.Domain.DTO.ShopElements
 {
     public class ProductDTO : DTOEntity
     {
+        public Guid Id { get; set; }
         public string ProductCode { get; set; }
         public string ProductName { get; set; }
         public decimal? ProductPrice { get; set; }

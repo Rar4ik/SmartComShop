@@ -12,12 +12,14 @@ namespace Services.AutoMapper
                 .ForMember("CustomerName", opt => opt.MapFrom(c => c.CustomerName))
                 .ForMember("CustomerCode", opt => opt.MapFrom(c => c.Code))
                 .ForMember("CustomerAddress", opt => opt.MapFrom(c => c.CustomerAddress))
-                .ForMember("CustomerDiscount", opt => opt.MapFrom(c => c.CustomerDiscount));
+                .ForMember("CustomerDiscount", opt => opt.MapFrom(c => c.CustomerDiscount))
+                .ForMember("Id", opt => opt.MapFrom(c => c.Id));
             CreateMap<ProductModel, ProductDTO>().ReverseMap()
                 .ForMember("ProductCode", opt => opt.MapFrom(c => c.ProductCode))
                 .ForMember("ProductName", opt => opt.MapFrom(c => c.ProductName))
                 .ForMember("ProductPrice", opt => opt.MapFrom(c => c.ProductPrice))
-                .ForMember("ProductCategory", opt => opt.MapFrom(c => c.ProductCategory)); 
+                .ForMember("ProductCategory", opt => opt.MapFrom(c => c.ProductCategory))
+                .ForMember("Id", opt => opt.MapFrom(c => c.Id));
             CreateMap<OrderElementModel, OrderElementDTO>().ReverseMap()
                 .ForMember("Order", opt => opt.MapFrom(c => c.Order))
                 .ForMember("Product", opt => opt.MapFrom(c => c.Product))

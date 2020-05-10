@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.Entity;
+using System.Data.Entity.Migrations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,8 +12,8 @@ namespace Services.Repository
 {
     public class SQLGenericRepository<TEntity> : IGenericRepository<TEntity> where TEntity : class
     {
-        protected readonly DbContext _context;
-        DbSet<TEntity> _dbSet;
+        readonly DbSet<TEntity> _dbSet;
+        private DbContext _context;
 
         public SQLGenericRepository(DbContext context)
         {
@@ -28,7 +29,6 @@ namespace Services.Repository
         {
             return _dbSet.Find(id);
         }
-
         public IEnumerable<TEntity> Get()
         {
             return _dbSet.AsNoTracking().ToList();
@@ -41,12 +41,18 @@ namespace Services.Repository
 
         public void Remove(TEntity item)
         {
-            _dbSet.Remove(item);
+            if (typeof(TEntity).GUID != Guid.Empty)
+            {
+                _context.Entry(item).State = EntityState.Deleted;
+            }
+            //_dbSet.Remove(item);
         }
 
         public void Update(TEntity item)
         {
+
             _context.Entry(item).State = EntityState.Modified;
+            //_dbSet.AddOrUpdate(item);
         }
     }
 }
