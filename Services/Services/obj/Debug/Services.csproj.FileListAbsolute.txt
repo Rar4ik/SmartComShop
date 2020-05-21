@@ -46,3 +46,10 @@ C:\Users\mrava\source\repos\SmartComShop\Services\Services\bin\Debug\System.Web.
 C:\Users\mrava\source\repos\SmartComShop\Services\Services\bin\Debug\System.Web.WebPages.xml
 C:\Users\mrava\source\repos\SmartComShop\Services\Services\bin\Debug\System.Web.WebPages.Deployment.xml
 C:\Users\mrava\source\repos\SmartComShop\Services\Services\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\mrava\source\repos\SmartComShop\Services\Services\bin\Debug\WebActivatorEx.dll
+C:\Users\mrava\source\repos\SmartComShop\Services\Services\bin\Debug\ru\System.Web.Helpers.resources.dll
+C:\Users\mrava\source\repos\SmartComShop\Services\Services\bin\Debug\ru\System.Web.Mvc.resources.dll
+C:\Users\mrava\source\repos\SmartComShop\Services\Services\bin\Debug\ru\System.Web.Razor.resources.dll
+C:\Users\mrava\source\repos\SmartComShop\Services\Services\bin\Debug\ru\System.Web.WebPages.resources.dll
+C:\Users\mrava\source\repos\SmartComShop\Services\Services\bin\Debug\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\mrava\source\repos\SmartComShop\Services\Services\bin\Debug\ru\System.Web.WebPages.Razor.resources.dll

@@ -19,3 +19,5 @@ C:\Users\mrava\source\repos\SmartComShop\SmartCom.DAL\SmartCom.DAL\obj\Debug\Sma
 C:\Users\mrava\source\repos\SmartComShop\SmartCom.DAL\SmartCom.DAL\obj\Debug\SmartCom.DAL.csproj.CoreCompileInputs.cache
 C:\Users\mrava\source\repos\SmartComShop\SmartCom.DAL\SmartCom.DAL\obj\Debug\SmartCom.DAL.Migrations.Initial.resources
 C:\Users\mrava\source\repos\SmartComShop\SmartCom.DAL\SmartCom.DAL\obj\Debug\SmartCom.DAL.csproj.GenerateResource.cache
+C:\Users\mrava\source\repos\SmartComShop\SmartCom.DAL\SmartCom.DAL\obj\Debug\SmartCom.DAL.Migrations.UserRefactoring.resources
+C:\Users\mrava\source\repos\SmartComShop\SmartCom.DAL\SmartCom.DAL\obj\Debug\SmartCom.DAL.Migrations.AddAdmin.resources

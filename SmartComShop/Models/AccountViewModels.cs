@@ -49,9 +49,8 @@ namespace SmartComShop.Models
     public class LoginViewModel
     {
         [Required]
-        [Display(Name = "Адрес электронной почты")]
-        [EmailAddress]
-        public string Email { get; set; }
+        [Display(Name = "Логин")]
+        public string Name { get; set; }
 
         [Required]
         [DataType(DataType.Password)]

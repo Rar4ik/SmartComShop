@@ -10,9 +10,9 @@ namespace Interfaces.Services
     public interface ICustomerService
     {
         IEnumerable<CustomerDTO> GetCustomers();
-        string GetCustomerCode();
-        string GetCustomer();
-        string GetCustomerAddress();
-        int? GetCustomerDiscount();
+        CustomerDTO GetCustomer(Guid id);
+        void AddCustomer(CustomerDTO customer);
+        void Edit(Guid id, CustomerDTO customer);
+        void Delete(CustomerDTO customer);
     }
 }

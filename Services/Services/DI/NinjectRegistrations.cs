@@ -22,6 +22,8 @@ namespace Services.DI
         {
             Bind<IProductService>().To<SQLProductData>()
                 .WithConstructorArgument("db", new UnitOfWork());
+            Bind<ICustomerService>().To<SQLCustomerData>()
+                .WithConstructorArgument("db", new UnitOfWork());
             #region Mapper
             var mapperConfiguration = CreateConfiguration();
             Bind<MapperConfiguration>().ToConstant(mapperConfiguration).InSingletonScope();

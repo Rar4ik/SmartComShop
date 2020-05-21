@@ -38,7 +38,8 @@ namespace SmartComShop
         {
         }
 
-        public static ApplicationUserManager Create(IdentityFactoryOptions<ApplicationUserManager> options, IOwinContext context) 
+        public static ApplicationUserManager Create(IdentityFactoryOptions<ApplicationUserManager> options, 
+            IOwinContext context) 
         {
             var manager = new ApplicationUserManager(new UserStore<User>(context.Get<ApplicationDbContext>()));
             // Настройка логики проверки имен пользователей
@@ -65,7 +66,8 @@ namespace SmartComShop
 
             // Регистрация поставщиков двухфакторной проверки подлинности. Для получения кода проверки пользователя в данном приложении используется телефон и сообщения электронной почты
             // Здесь можно указать собственный поставщик и подключить его.
-            manager.RegisterTwoFactorProvider("Код, полученный по телефону", new PhoneNumberTokenProvider<User>
+            manager.RegisterTwoFactorProvider("Код, полученный по телефону", 
+                new PhoneNumberTokenProvider<User>
             {
                 MessageFormat = "Ваш код безопасности: {0}"
             });
@@ -80,7 +82,8 @@ namespace SmartComShop
             if (dataProtectionProvider != null)
             {
                 manager.UserTokenProvider = 
-                    new DataProtectorTokenProvider<User>(dataProtectionProvider.Create("ASP.NET Identity"));
+                    new DataProtectorTokenProvider<User>(dataProtectionProvider
+                        .Create("ASP.NET Identity"));
             }
             return manager;
         }

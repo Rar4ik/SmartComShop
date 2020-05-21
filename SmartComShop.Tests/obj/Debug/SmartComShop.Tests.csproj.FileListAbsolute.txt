@@ -59,11 +59,7 @@ C:\Users\mrava\source\repos\SmartComShop\SmartComShop.Tests\bin\Debug\ru\System.
 C:\Users\mrava\source\repos\SmartComShop\SmartComShop.Tests\bin\Debug\ru\System.Web.WebPages.resources.dll
 C:\Users\mrava\source\repos\SmartComShop\SmartComShop.Tests\bin\Debug\ru\System.Web.WebPages.Deployment.resources.dll
 C:\Users\mrava\source\repos\SmartComShop\SmartComShop.Tests\bin\Debug\ru\System.Web.WebPages.Razor.resources.dll
-C:\Users\mrava\source\repos\SmartComShop\SmartComShop.Tests\bin\Debug\ru\Microsoft.Owin.resources.dll
 C:\Users\mrava\source\repos\SmartComShop\SmartComShop.Tests\bin\Debug\ru\System.Web.Optimization.resources.dll
-C:\Users\mrava\source\repos\SmartComShop\SmartComShop.Tests\bin\Debug\ru\Microsoft.AspNet.Identity.Owin.resources.dll
-C:\Users\mrava\source\repos\SmartComShop\SmartComShop.Tests\bin\Debug\ru\Microsoft.Owin.Security.resources.dll
-C:\Users\mrava\source\repos\SmartComShop\SmartComShop.Tests\bin\Debug\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
 C:\Users\mrava\source\repos\SmartComShop\SmartComShop.Tests\obj\Debug\SmartComShop.Tests.csprojAssemblyReference.cache
 C:\Users\mrava\source\repos\SmartComShop\SmartComShop.Tests\obj\Debug\SmartComShop.Tests.csproj.CopyComplete
 C:\Users\mrava\source\repos\SmartComShop\SmartComShop.Tests\obj\Debug\SmartComShop.Tests.dll

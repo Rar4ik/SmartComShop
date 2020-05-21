@@ -57,7 +57,6 @@ C:\Users\mrava\source\repos\SmartComShop\SmartComShop\bin\Microsoft.AspNet.Ident
 C:\Users\mrava\source\repos\SmartComShop\SmartComShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\mrava\source\repos\SmartComShop\SmartComShop\bin\Microsoft.Owin.dll
 C:\Users\mrava\source\repos\SmartComShop\SmartComShop\bin\Microsoft.Owin.Host.SystemWeb.dll
-C:\Users\mrava\source\repos\SmartComShop\SmartComShop\bin\Microsoft.Owin.Security.Cookies.dll
 C:\Users\mrava\source\repos\SmartComShop\SmartComShop\bin\Microsoft.Owin.Security.dll
 C:\Users\mrava\source\repos\SmartComShop\SmartComShop\bin\Microsoft.Owin.Security.Facebook.dll
 C:\Users\mrava\source\repos\SmartComShop\SmartComShop\bin\Microsoft.Owin.Security.Google.dll
@@ -106,14 +105,6 @@ C:\Users\mrava\source\repos\SmartComShop\SmartComShop\bin\ru\System.Web.Razor.re
 C:\Users\mrava\source\repos\SmartComShop\SmartComShop\bin\ru\System.Web.WebPages.resources.dll
 C:\Users\mrava\source\repos\SmartComShop\SmartComShop\bin\ru\System.Web.WebPages.Deployment.resources.dll
 C:\Users\mrava\source\repos\SmartComShop\SmartComShop\bin\ru\System.Web.WebPages.Razor.resources.dll
-C:\Users\mrava\source\repos\SmartComShop\SmartComShop\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
-C:\Users\mrava\source\repos\SmartComShop\SmartComShop\bin\ru\Microsoft.Owin.resources.dll
-C:\Users\mrava\source\repos\SmartComShop\SmartComShop\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
-C:\Users\mrava\source\repos\SmartComShop\SmartComShop\bin\ru\Microsoft.Owin.Security.resources.dll
-C:\Users\mrava\source\repos\SmartComShop\SmartComShop\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
-C:\Users\mrava\source\repos\SmartComShop\SmartComShop\bin\ru\Microsoft.Owin.Security.Google.resources.dll
-C:\Users\mrava\source\repos\SmartComShop\SmartComShop\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
-C:\Users\mrava\source\repos\SmartComShop\SmartComShop\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
 C:\Users\mrava\source\repos\SmartComShop\SmartComShop\obj\Debug\SmartComShop.csprojAssemblyReference.cache
 C:\Users\mrava\source\repos\SmartComShop\SmartComShop\obj\Debug\SmartComShop.csproj.CopyComplete
 C:\Users\mrava\source\repos\SmartComShop\SmartComShop\obj\Debug\SmartComShop.dll
@@ -152,3 +143,4 @@ C:\Users\mrava\source\repos\SmartComShop\SmartComShop\bin\System.Web.Http.WebHos
 C:\Users\mrava\source\repos\SmartComShop\SmartComShop\bin\ru\System.Net.Http.Formatting.resources.dll
 C:\Users\mrava\source\repos\SmartComShop\SmartComShop\bin\ru\System.Web.Http.resources.dll
 C:\Users\mrava\source\repos\SmartComShop\SmartComShop\bin\ru\System.Web.Http.WebHost.resources.dll
+C:\Users\mrava\source\repos\SmartComShop\SmartComShop\bin\WebActivatorEx.dll

@@ -6,7 +6,7 @@
     <members>
         <member name="T:Ninject.Web.Common.HttpApplicationInitializationHttpModule">
             <summary>
-            Initializes a <see cref="T:System.Web.HttpApplication"/> instance
+            Initializes a <see cref="T:System.Web.HttpApplication"/> instance.
             </summary>
         </member>
         <member name="M:Ninject.Web.Common.HttpApplicationInitializationHttpModule.#ctor(System.Func{Ninject.IKernel})">
@@ -19,7 +19,7 @@
             <summary>
             Initializes a module and prepares it to handle requests.
             </summary>
-            <param name="context">An <see cref="T:System.Web.HttpApplication"/> that provides access to the methods, properties, and events common to all application objects within an ASP.NET application</param>
+            <param name="context">An <see cref="T:System.Web.HttpApplication"/> that provides access to the methods, properties, and events common to all application objects within an ASP.NET application.</param>
         </member>
         <member name="T:Ninject.Web.Common.WebHost.NinjectHttpApplication">
             <summary>
@@ -28,7 +28,7 @@
         </member>
         <member name="F:Ninject.Web.Common.WebHost.NinjectHttpApplication.onePerRequestHttpModule">
             <summary>
-            The one per request module to release request scope at the end of the request
+            The one per request module to release request scope at the end of the request.
             </summary>
         </member>
         <member name="F:Ninject.Web.Common.WebHost.NinjectHttpApplication.bootstrapper">
@@ -80,14 +80,14 @@
         </member>
         <member name="T:Ninject.Web.Common.WebHost.NinjectHttpModule">
             <summary>
-            HttpModule to add support for constructor injection to HttpModules
+            HttpModule to add support for constructor injection to HttpModules.
             </summary>
         </member>
         <member name="M:Ninject.Web.Common.WebHost.NinjectHttpModule.Init(System.Web.HttpApplication)">
             <summary>
             Initializes a module and prepares it to handle requests.
             </summary>
-            <param name="context">An <see cref="T:System.Web.HttpApplication"/> that provides access to the methods, properties, and events common to all application objects within an ASP.NET application</param>
+            <param name="context">An <see cref="T:System.Web.HttpApplication"/> that provides access to the methods, properties, and events common to all application objects within an ASP.NET application.</param>
         </member>
         <member name="M:Ninject.Web.Common.WebHost.NinjectHttpModule.Dispose">
             <summary>

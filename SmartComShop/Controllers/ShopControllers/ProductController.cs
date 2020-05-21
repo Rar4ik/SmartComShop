@@ -36,7 +36,7 @@ namespace SmartComShop.Controllers.ShopControllers
         }
 
         #region GetByCode GET&POST
-        [HttpGet/*,Authorize(Roles = Role.Admonistrator)*/]
+        [HttpGet, Authorize(Roles = UserAdmin.Name)]
         public ActionResult GetByCode(Guid id)
         {
 
@@ -46,7 +46,7 @@ namespace SmartComShop.Controllers.ShopControllers
             return View(productView);
         }
 
-        [HttpPost/*,Authorize(Roles = Role.Admonistrator)*/]
+        [HttpPost, Authorize(Roles = UserAdmin.Name)]
         public ActionResult GetByCode(ProductViewModel product)
         {
             if (product is null)
@@ -62,10 +62,10 @@ namespace SmartComShop.Controllers.ShopControllers
         #endregion
 
         #region Create GET&POST
-        [HttpGet]
+        [HttpGet, Authorize(Roles = UserAdmin.Name)]
         public ActionResult Create() => View(new ProductViewModel());
 
-        [HttpPost]
+        [HttpPost, Authorize(Roles = UserAdmin.Name)]
         public ActionResult Create(ProductViewModel product)
         {
             if (!ModelState.IsValid)
@@ -77,6 +77,7 @@ namespace SmartComShop.Controllers.ShopControllers
         #endregion
 
         // DELETE api/<controller>/5
+        [Authorize(Roles = UserAdmin.Name)]
         public ActionResult Delete(ProductViewModel product)
         {
             _product.Delete(_mapper.Map<ProductDTO>(product));

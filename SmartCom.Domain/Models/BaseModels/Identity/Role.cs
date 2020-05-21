@@ -4,7 +4,7 @@ namespace SmartCom.Domain.Models.BaseModels.Identity
 {
     public class Role : IdentityRole
     {
-        public const string Admonistrator = "Admin";
+        public const string Administrator = "Admin";
         public const string User = "User";
     }
 }

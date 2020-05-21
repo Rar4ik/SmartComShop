@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
+using SmartCom.Domain.DTO.Identity;
 using SmartCom.Domain.DTO.ShopElements;
 using SmartCom.Domain.Models.BaseModels;
+using SmartCom.Domain.Models.BaseModels.Identity;
 
 namespace Services.AutoMapper
 {
@@ -8,6 +10,7 @@ namespace Services.AutoMapper
     {
         public AutoMapperDTO()
         {
+            CreateMap<User, UserDTO>().ReverseMap();
             CreateMap<CustomerModel, CustomerDTO>().ReverseMap()
                 .ForMember("CustomerName", opt => opt.MapFrom(c => c.CustomerName))
                 .ForMember("CustomerCode", opt => opt.MapFrom(c => c.Code))
@@ -34,6 +37,7 @@ namespace Services.AutoMapper
                 .ForMember("OrderDateDelivered", opt => opt.MapFrom(c => c.OrderDateDelivered))
                 .ForMember("OrderNumber", opt => opt.MapFrom(c => c.OrderNumber))
                 .ForMember("OrderStatus", opt => opt.MapFrom(c => c.OrderStatus)); 
+            
         }
     }
 }
