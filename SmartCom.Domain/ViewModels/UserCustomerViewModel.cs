@@ -19,6 +19,13 @@ namespace SmartCom.Domain.ViewModels
         [Display(Name = "Адрес электронной почты")]
         public string Email { get; set; }
 
+        [DataType(DataType.PhoneNumber)]
+        public string PhoneNumber { get; set; }
+
+        [Required]
+        [Display(Name = "Логин")]
+        public string UserName { get; set; }
+
         [Required]
         [DataType(DataType.Password)]
         [Display(Name = "Пароль")]
@@ -28,14 +35,6 @@ namespace SmartCom.Domain.ViewModels
         [Display(Name = "Подтверждение пароля")]
         [Compare("Password", ErrorMessage = "Пароль и его подтверждение не совпадают.")]
         public string ConfirmPassword { get; set; }
-        public string PhoneNumber { get; set; }
-
-        //[Required]
-        //[Display(Name = "Логин")]
-        public string UserName { get; set; }
-
-        [Display(Name = "Запомнить меня")]
-        public string RememberMe { get; set; }
 
         #endregion
 
@@ -45,6 +44,6 @@ namespace SmartCom.Domain.ViewModels
         public string CustomerAddress { get; set; }
         public int? CustomerDiscount { get; set; } 
         #endregion
-        public bool IsAdmin { get; set; }
+        public bool IsCustomer { get; set; }
     }
 }

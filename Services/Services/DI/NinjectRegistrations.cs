@@ -46,14 +46,8 @@ namespace Services.DI
         {
             NinjectModule registration = new NinjectRegistrations();
             var kernel = new StandardKernel(registration);
+            kernel.Unbind<ModelValidatorProvider>();
             DependencyResolver.SetResolver(new NinjectDependencyResolver(kernel));
-        }
-    }
-    public class Root
-    {
-        public Root(IMapper mapper)
-        {
-
         }
     }
 }

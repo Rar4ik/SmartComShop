@@ -1,4 +1,4 @@
-﻿@model IEnumerable<SmartCom.Domain.ViewModels.ProductViewModel>
+@model IEnumerable<SmartCom.Domain.ViewModels.ProductViewModel>
 
 @{
     ViewBag.Title = "Get";
@@ -9,7 +9,7 @@
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
-<table class="table">
+@*<table class="table">
     <tr>
         <th>
             @Html.DisplayNameFor(model => model.ProductName)
@@ -42,4 +42,17 @@
     </tr>
 }
 
-</table>
+</table>*@
+
+
+<div>
+  @*<add-product>
+    <button v-if="!isScrolled" key="top" class="container btn btn-info mb-2">AddNew</button>
+    <button v-else key="bottom" class="container btn btn-info fixed-bottom">AddNew</button>
+  </add-product>*@
+  <div class="row row-col-1 row-cols-md-4">
+    <list-product :product="product" class="mb-4"></list-product>
+  </div>
+</div>
+
+@Scripts.Render("~/vuesrc/Scripts/ProductList.js")

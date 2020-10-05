@@ -1,0 +1,24 @@
+﻿@using System.Web.UI.WebControls
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+  @Html.ActionLink("SmartCom", "Index", "Home",
+    new { area = "" }, new { @class = "navbar-brand" })
+
+  <div class="collapse navbar-collapse">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        @Html.ActionLink("Товары", "Get", "Product",
+          new { area = "" }, new { @class = "nav-link" })
+      </li>
+    </ul>
+    <ul class="navbar nav mr-auto mr-sm-2">
+      <li class="nav-item">
+        @Html.ActionLink("Вход", "Login", "Account",
+          new { area = "" }, new { @class = "nav-link" })
+      </li>
+      <li class="nav-item">
+        @Html.ActionLink("Регистрация", "Register", "Account",
+          new { area = "" }, new { @class = "nav-link" })
+      </li>
+    </ul>
+  </div>
+</nav>

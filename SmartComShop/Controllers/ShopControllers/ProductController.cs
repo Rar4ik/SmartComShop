@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,15 +28,20 @@ namespace SmartComShop.Controllers.ShopControllers
         }
 
         [HttpGet]
-        public ActionResult Get()
+        //public ActionResult Get()
+        //{
+        //    IEnumerable<ProductViewModel> productView = 
+        //        _mapper.Map<IEnumerable<ProductViewModel>>(_product.GetProducts());
+        //    return View(productView);
+        //}
+        public JsonResult Get()
         {
-            IEnumerable<ProductViewModel> productView = 
-                _mapper.Map<IEnumerable<ProductViewModel>>(_product.GetProducts());
-            return View(productView);
+          IEnumerable<ProductViewModel> productView =
+            _mapper.Map<IEnumerable<ProductViewModel>>(_product.GetProducts());
+          return Json(productView, JsonRequestBehavior.AllowGet);
         }
-
-        #region GetByCode GET&POST
-        [HttpGet, Authorize(Roles = UserAdmin.Name)]
+    #region GetByCode GET&POST
+    [HttpGet, Authorize(Roles = UserAdmin.Name)]
         public ActionResult GetByCode(Guid id)
         {
 

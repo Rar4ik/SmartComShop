@@ -9,6 +9,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using SmartCom.Domain.Models.BaseModels.Identity;
+using SmartCom.Domain.ViewModels;
 using SmartComShop.Models;
 
 namespace SmartComShop.Controllers
@@ -148,7 +149,7 @@ namespace SmartComShop.Controllers
         [HttpPost]
         [AllowAnonymous]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Register(RegisterViewModel model)
+        public async Task<ActionResult> Register(UserCustomerViewModel model)
         {
             if (ModelState.IsValid)
             {
@@ -163,6 +164,7 @@ namespace SmartComShop.Controllers
                     // string code = await UserManager.GenerateEmailConfirmationTokenAsync(user.Id);
                     // var callbackUrl = Url.Action("ConfirmEmail", "Account", new { userId = user.Id, code = code }, protocol: Request.Url.Scheme);
                     // await UserManager.SendEmailAsync(user.Id, "Подтверждение учетной записи", "Подтвердите вашу учетную запись, щелкнув <a href=\"" + callbackUrl + "\">здесь</a>");
+                        
 
                     return RedirectToAction("Index", "Home");
                 }
